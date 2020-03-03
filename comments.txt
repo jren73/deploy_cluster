@@ -1,0 +1,7 @@
+"sudo yum install gmp-devel mpfr-devel libmpc-devel -y"
+"mkdir /home/cc/Download"
+"mkdir /home/cc/WarpX"
+"sudo mount mpi-instance-0:/home/cc/Download/ Download/"
+"sudo mount mpi-instance-0:/home/cc/WarpX WarpX/"
+"cd Download/gcc_5.4/gcc-5.4.0-build/ && sudo make install"
+"export PATH=/usr/local/bin:$PATH && export LD_LIBRARY_PATH=/usr/local/lib64:$LD_LIBRARY_PATH"
