@@ -17,3 +17,4 @@ make -j$(nproc) && sudo make install
 #sudo vim /etc/profile
 export PATH=/usr/local/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/lib64:$LD_LIBRARY_PATH
+source /etc/profile
