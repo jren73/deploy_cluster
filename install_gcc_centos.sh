@@ -7,7 +7,7 @@ export LD_LIBRARY_PATH=/home/cc/mvapich2-2.2/lib/.libs/:
 
 curl https://ftp.gnu.org/gnu/gcc/gcc-5.4.0/gcc-5.4.0.tar.bz2 -O
 tar jxvf gcc-5.4.0.tar.bz2
-sudo yum install gmp-devel mpfr-devel libmpc-devel
+sudo yum install -y gmp-devel mpfr-devel libmpc-devel
 
 mkdir gcc-5.4.0-build
 cd gcc-5.4.0-build
